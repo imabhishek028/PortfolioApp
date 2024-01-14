@@ -1,0 +1,1 @@
+Basic Portfolio Applocation, that has major focus on learning basic things like adding Texts, Images, Intent Switching etc. It shows my skills, education, hobbies and ambitions as main options to view.
