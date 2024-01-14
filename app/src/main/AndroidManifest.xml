@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PortfolioApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PortfolioApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".EduUG"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name=".EduSenSec"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".EduSec"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".EduPrimary"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name=".ActivityEducation"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SkillAS"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".SkillKotlin"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SkillCPP"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SkillC"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".AmbitionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HobbiesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EducationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="PortfolioApp"
+            android:theme="@style/Theme.PortfolioApp" />
+        <activity
+            android:name=".SkillsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat"
+            tools:ignore="ExtraText">
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Portfolio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
